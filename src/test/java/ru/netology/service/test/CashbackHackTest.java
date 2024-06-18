@@ -5,10 +5,9 @@ import ru.netology.service.CashbackHackService;
 
 import static org.junit.Assert.assertEquals;
 
-
 public class CashbackHackTest {
     @Test
-    public void RavnoCalcBonus() {
+    public void CalcCashbackHackTest() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
 
@@ -17,4 +16,5 @@ public class CashbackHackTest {
 
         assertEquals (actual, expected);
     }
+
 }
